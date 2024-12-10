@@ -1,4 +1,5 @@
-
+// Attach Gradient to the global window object
+window.Gradient = Gradient;
 /*
 *   Stripe WebGl Gradient Animation
 *   All Credits to Stripe.com
