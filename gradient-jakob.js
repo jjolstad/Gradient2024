@@ -1,4 +1,6 @@
-
+class Gradient {
+    // Implementation of the Gradient functionality
+}
 /*
 *   Stripe WebGl Gradient Animation
 *   All Credits to Stripe.com
