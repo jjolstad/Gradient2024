@@ -1,6 +1,21 @@
 class Gradient {
-    // Implementation of the Gradient functionality
+    constructor() {
+        console.log('Gradient initialized!');
+    }
+
+    initGradient(selector) {
+        const canvas = document.querySelector(selector);
+        if (canvas) {
+            console.log('Canvas found:', canvas);
+            // Add gradient logic here
+        } else {
+            console.error('Canvas not found for selector:', selector);
+        }
+    }
 }
+
+// Expose Gradient to the global window object
+window.Gradient = Gradient;
 /*
 *   Stripe WebGl Gradient Animation
 *   All Credits to Stripe.com
